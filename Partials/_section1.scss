@@ -1,0 +1,559 @@
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 7rem;
+    // position: relative;
+    height: 85vh;
+    
+    .img{
+        width: 100%;
+        height: 100%;
+        // overflow: hidden;
+     
+    
+        img{
+            // position: absolute;
+            object-fit: fill;
+        //    bottom:0;
+        //    right: 10rem;
+            width:75%;
+            height: 100%;
+            // overflow: hidden;
+          
+    
+            
+    
+        }
+    }
+    .paragraph1{
+        position: relative;
+    }
+    .AWARDS{
+        color: white;
+        background-color: black;
+        width: 300px;
+    padding: 1rem;
+        position:absolute;
+        top: 15rem;
+       left:11rem;
+       z-index: 1000;
+    }
+    .ahmed{
+        position: relative;
+        font-size: 8rem;
+        font-weight: bold;
+        color: white;
+        padding-left: 3rem;
+    }
+    .yusuf{
+    // position: relative;
+        font-size: 7rem;
+        font-weight: bold;
+        color: white;
+        padding-left:9rem;
+    }
+    span{
+        border-bottom: 2px solid black;
+        font-weight: bold;
+    }
+    .FREELANCER{
+        position: absolute;
+       bottom: -5rem;
+       right: .2rem;
+        font-size: 11rem;
+        font-weight: bold;
+        color: rgb(255,255,255);
+    }
+//     .paragraph1{
+// width: 50%;
+
+//     }
+    .creative{
+        display: flex;
+        font-weight: bold;
+        line-height: 1.5rem;
+       width: 75%;
+        padding-left: 9rem;
+        margin-top: 2rem;
+       
+      
+        
+
+    }
+   
+}
+@media(max-width:768px){
+    .head{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        // position: relative;
+        height: 95vh;
+        
+        .img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            // overflow: hidden;
+         
+        
+            img{
+                // position: absolute;
+                object-fit: fill;
+            //    bottom:0;
+            //    right: 10rem;
+                width:75%;
+                height: 90%;
+                // overflow: hidden;
+              
+        
+                
+        
+            }
+        }
+        .paragraph1{
+            position: relative;
+        }
+        .AWARDS{
+            color: white;
+            background-color: black;
+            font-size: 0.8rem;
+            width: auto;
+        padding: 0.3rem 0.5rem;
+            position:absolute;
+            top: 63%;
+           left:36%;
+           z-index: 1000;
+        }
+        .ahmed{
+            position: relative;
+            font-size: 6rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 3rem;
+        }
+        .yusuf{
+        // position: relative;
+            font-size: 5rem;
+            font-weight: bold;
+            color: white;
+            padding-left:15rem;
+        }
+        span{
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+        .FREELANCER{
+            position: absolute;
+           bottom: -5rem;
+           right: .2rem;
+            font-size: 11rem;
+            font-weight: bold;
+            color: rgb(255,255,255);
+        }
+    //     .paragraph1{
+    // width: 50%;
+    
+    //     }
+        .creative{
+            display: flex;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+           width: 75%;
+            padding-left: 9rem;
+            margin-top: 2rem;
+           
+          
+            
+    
+        }
+       
+    }
+   
+   
+   
+}
+
+
+
+
+
+@media(max-width:665px){
+    .head{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+        // position: relative;
+        height: auto;
+        
+        .img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            // overflow: hidden;
+         
+        
+            img{
+                // position: absolute;
+                object-fit: fill;
+            //    bottom:0;
+            //    right: 10rem;
+                width:100%;
+                height: 90%;
+                // overflow: hidden;
+              
+        
+                
+        
+            }
+        }
+        .paragraph1{
+            position: relative;
+        }
+        .AWARDS{
+            color: white;
+            background-color: black;
+            font-size: 0.6rem;
+            width: auto;
+        padding: 0.2rem 0.5rem;
+            position:absolute;
+            top: 54%;
+           left:20%;
+           z-index: 1000;
+        }
+        .ahmed{
+            position: relative;
+            font-size: 4rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 1rem;
+        }
+        .yusuf{
+        // position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 6rem;
+        }
+        span{
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+   
+    //     .paragraph1{
+    // width: 50%;
+    
+    //     }
+        .creative{
+            display: flex;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+           width: 100%;
+            padding-left: 1rem;
+            margin-top: 2rem;
+           
+          
+            
+    
+        }
+       
+    }
+}
+@media(max-width:590px){
+    .head{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+        // position: relative;
+        height: auto;
+        
+        .img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            // overflow: hidden;
+         
+        
+            img{
+                // position: absolute;
+                object-fit: fill;
+            //    bottom:0;
+            //    right: 10rem;
+                width:100%;
+                height: 90%;
+                // overflow: hidden;
+              
+        
+                
+        
+            }
+        }
+        .paragraph1{
+            position: relative;
+        }
+        .AWARDS{
+            color: white;
+            background-color: black;
+            font-size: 0.6rem;
+            width: auto;
+        padding: 0.2rem 0.5rem;
+            position:absolute;
+            top: 54%;
+           left:20%;
+           z-index: 1000;
+        }
+        .ahmed{
+            position: relative;
+            font-size: 4rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 1rem;
+        }
+        .yusuf{
+        // position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 6rem;
+        }
+        span{
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+   
+    //     .paragraph1{
+    // width: 50%;
+    
+    //     }
+        .creative{
+            display: flex;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+           width: 100%;
+            padding-left: 1rem;
+            margin-top: 2rem;
+           
+          
+            
+    
+        }
+       
+    }
+}
+
+@media (max-width:480px){
+    .head{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+        // position: relative;
+        height: auto;
+        
+        .img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            // overflow: hidden;
+         
+        
+            img{
+                // position: absolute;
+                object-fit: fill;
+            //    bottom:0;
+            //    right: 10rem;
+                width:100%;
+                height: 90%;
+                // overflow: hidden;
+              
+        
+                
+        
+            }
+        }
+        .paragraph1{
+            position: relative;
+        }
+        .AWARDS{
+            color: white;
+            background-color: black;
+            font-size: 0.6rem;
+            width: auto;
+        padding: 0.2rem 0.5rem;
+            position:absolute;
+            top: 54%;
+           left:20%;
+           z-index: 1000;
+        }
+        .ahmed{
+            position: relative;
+            font-size: 4rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 1rem;
+        }
+        .yusuf{
+        // position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 6rem;
+        }
+        span{
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+   
+    //     .paragraph1{
+    // width: 50%;
+    
+    //     }
+        .creative{
+            display: flex;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+           width: 100%;
+            padding-left: 1rem;
+            margin-top: 2rem;
+           
+          
+            
+    
+        }
+       
+    }
+
+}
+
+@media(max-width:376px){
+    .head{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        gap: 3rem;
+        // position: relative;
+        height: auto;
+        
+        .img{
+            width: 50%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            // overflow: hidden;
+         
+        
+            img{
+                // position: absolute;
+                object-fit: fill;
+            //    bottom:0;
+            //    right: 10rem;
+                width:100%;
+                height: 90%;
+                // overflow: hidden;
+              
+        
+                
+        
+            }
+        }
+        .paragraph1{
+            position: relative;
+        }
+        .AWARDS{
+            color: white;
+            background-color: black;
+            font-size: 0.4rem;
+            width: auto;
+        padding: 0.2rem 0.5rem;
+            position:absolute;
+            top: 45%;
+           left:30%;
+           z-index: 1000;
+        }
+        .ahmed{
+            position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 1rem;
+        }
+        .yusuf{
+        // position: relative;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: white;
+            padding-left: 6rem;
+        }
+        span{
+            border-bottom: 2px solid black;
+            font-weight: bold;
+        }
+   
+    //     .paragraph1{
+    // width: 50%;
+    
+    //     }
+        .creative{
+            display: flex;
+            font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+           width: 100%;
+            padding-left: 1rem;
+            margin-top: 2rem;
+           
+          
+            
+    
+        }
+       
+    }
+
+}
+
+
+
+
+    
+    
+
+
+
+    
+        
+    
+    

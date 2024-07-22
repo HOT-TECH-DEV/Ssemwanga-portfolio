@@ -1,0 +1,122 @@
+.print{
+    background-color: $primary-color;
+    display: flex;
+  padding: 4rem;
+  justify-content: space-between;
+//   position: relative;
+  #image{
+    position: relative;
+    width: 500px;
+    height: 650px;
+    top: 4rem;
+    // height: 100%;
+ left:-1rem;
+}
+    .digitals{
+       
+        display: flex;
+       
+        .describe{
+            display: flex;
+            flex-direction: column;
+            // position: absolute;
+            padding: 4rem;
+            justify-content: space-between;
+            gap: 2rem;
+            .craft{
+                color: white;
+                max-width: 500px;
+                line-height: 3rem;
+            }
+          .users{
+            font-weight: 500;
+            line-height: 2rem;
+            max-width: 450px;
+          }
+        }
+        
+      
+        
+    }
+   
+    
+    
+    .art{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+       
+    }
+    .web{
+        display: flex;
+        align-items: center;
+       
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 1rem;
+     padding-bottom: .5rem;
+        border-bottom: 4px solid black ;
+    }
+    .graphic{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: .5rem;
+        border-bottom: 4px solid black ;
+    }
+    .direction{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-bottom: .5rem;
+        border-bottom: 4px solid black ;
+    }
+    .percent{
+        background-color: black;
+        padding: .3rem;
+        border-radius: .4rem;
+        color: white;
+    }
+    
+}
+@media(max-width:768px){
+    .print{
+        flex-direction: column-reverse;
+        padding: 1rem;
+        #image{
+            width: 500px;
+            top: .1rem;
+          left: 7rem;
+        }
+        .digitals{
+            .describe{
+                padding: 1rem;
+                    .craft{
+                        padding-top: 2rem;
+                    }
+                }
+        }
+      
+    }
+}
+@media(max-width:415px){
+    .print{
+     #image{
+        width: 250px;
+        height: 300px;
+        left: 2rem;
+     }
+     .digitals{
+        .describe{
+            .craft{
+                padding-top: 4rem;
+            }
+        }
+     }
+    }
+}
+
